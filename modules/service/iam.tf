@@ -36,7 +36,6 @@ resource "aws_iam_policy" "iam_policy" {
         "Resource" : [
           "arn:aws:logs:*:*:*",
           "arn:aws:s3:::*/*",
-          "arn:aws:s3:::raw-data-container"
         ],
         "Effect" : "Allow"
       }
