@@ -1,0 +1,6 @@
+.env
+.terraform
+*.hcl
+*.tfstate
+*.tfstate.*
+provider.tf
